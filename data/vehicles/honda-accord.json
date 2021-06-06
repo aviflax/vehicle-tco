@@ -8,7 +8,9 @@
 			"market": "us",
 			"model_year": "2021",
 			"trim": "EX-L 4dr Sedan (1.5L 4cyl Turbo CVT)",
-			"features": {},
+			"features": {
+				"wheels_driven": "FWD",
+			},
 			"safety": {},
 			"specs": {
 				"range": {

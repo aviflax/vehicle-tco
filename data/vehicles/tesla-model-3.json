@@ -8,7 +8,9 @@
 			"market": "us",
 			"model_year": "2021",
 			"trim": "Standard Range Plus",
-			"features": {},
+			"features": {
+				"wheels_driven": "RWD",
+			},
 			"safety": {},
 			"specs": {
 				"range": {
@@ -26,7 +28,7 @@
 						"scenario": "DC Fast Charging, Tesla Supercharger v2, from 20% to 80%",
 						"from": {"value": 20, "unit": "percent"},
 						"to":   {"value": 80, "unit": "percent"},
-						"peak_rate": {"value": 170, "unit": "kw"},
+						"peak_rate": {"value": 145, "unit": "kw"},
 						"duration": {"value": ???, "unit": "mins"},
 						"note": "As of May 2021, this is the most common scenario when charging a Telsa on a road trip in the USA. It’s possible that in a year or two from now v3 or v4 superchargers, which are faster, may become more common than v2.",
 						"source": {
