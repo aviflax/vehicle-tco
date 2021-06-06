@@ -2,17 +2,29 @@
 	"make": "Honda",
 	"model": "Accord",
 	"type": "sedan",
+	"drivetrain": "ICE",
 	"variants": [
 		{
 			"market": "us",
 			"model_year": "2021",
 			"trim": "EX-L 4dr Sedan (1.5L 4cyl Turbo CVT)",
-			"MSRP": {"value": 32085, "unit": "USD"},
 			"features": {},
+			"safety": {},
 			"specs": {
 				"range": {
-					"epa": {"value": ???, "unit": "miles", "source": "Honda"}
+					"epa": {
+						"value": 488,
+						"unit": "miles",
+						"source": {
+						    "name": "US EPA",
+							"url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=43361"
+						}
+					}
 				},
+			},
+			"up_front_cost": {
+				"msrp": {"value": 32085, "unit": "USD"},
+				"fees": {"value": 995, "unit": "USD"}
 			},
 			"tco": {
 				"us_federal_tax_credit": {"value": 0, "unit": "USD"},

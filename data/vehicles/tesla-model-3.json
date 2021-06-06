@@ -2,16 +2,24 @@
 	"make": "Tesla",
 	"model": "Model 3",
 	"type": "sedan",
+	"drivetrain": "BEV",
 	"variants": [
 		{
 			"market": "us",
 			"model_year": "2021",
 			"trim": "Standard Range Plus",
-			"MSRP": {"value": ????, "unit": "USD"},
 			"features": {},
+			"safety": {},
 			"specs": {
 				"range": {
-					"epa": {"value": 250, "unit": "miles", "source": "US EPA"}
+					"epa": {
+						"value": 263,
+						"unit": "miles",
+						"source": {
+						    "name": "US EPA",
+							"url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=43821"
+						}
+					}
 				},
 				"charge_time": {
 					"dcfc_20_to_80": {
@@ -19,10 +27,18 @@
 						"from": {"value": 20, "unit": "percent"},
 						"to":   {"value": 80, "unit": "percent"},
 						"peak_rate": {"value": 170, "unit": "kw"},
-						"duration": {"value": },
-						"note": "As of May 2021, this is the most common scenario when charging a Telsa on a road trip in the USA. It’s possible that in a year or two from now v3 or v4 superchargers, which are faster, may become more common than v2."
+						"duration": {"value": ???, "unit": "mins"},
+						"note": "As of May 2021, this is the most common scenario when charging a Telsa on a road trip in the USA. It’s possible that in a year or two from now v3 or v4 superchargers, which are faster, may become more common than v2.",
+						"source": {
+							"url": TODO,
+							"copyright": TODO
+						}
 					}
 				}
+			},
+			"up_front_cost": {
+				"msrp": {"value": 39990, "unit": "USD"},
+				"fees": {"value": 1200, "unit": "USD"}
 			},
 			"tco": {
 				"us_federal_tax_credit": {"value": 0, "unit": "USD"},
