@@ -1,0 +1,33 @@
+{
+	"make": "Honda",
+	"model": "Accord",
+	"type": "sedan",
+	"variants": [
+		{
+			"market": "us",
+			"model_year": "2021",
+			"trim": "EX-L 4dr Sedan (1.5L 4cyl Turbo CVT)",
+			"MSRP": {"value": 32085, "unit": "USD"},
+			"features": {},
+			"specs": {
+				"range": {
+					"epa": {"value": ???, "unit": "miles", "source": "Honda"}
+				},
+			},
+			"tco": {
+				"us_federal_tax_credit": {"value": 0, "unit": "USD"},
+				"insurance": {"value": 4570, "unit": "USD"},
+				"maintenance": {"value": 3466, "unit": "USD"},
+				"repairs": {"value": 734, "unit": "USD"},
+				"taxes_fees": {"value": 2823, "unit": "USD"},
+				"financing": {"value": 6211, "unit": "USD"},
+				"depreciation": {"value": 14500, "unit": "USD"},
+				"fuel": {"value": 6088, "unit": "USD"}
+			},
+			"tco_source": {
+				"url": "https://www.edmunds.com/honda/accord/2021/cost-to-own/?style=401871793",
+				"copyright": "Edmunds.com, Inc."
+			}
+		}
+	]
+}
