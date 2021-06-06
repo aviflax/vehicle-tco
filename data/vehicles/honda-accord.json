@@ -18,7 +18,7 @@
 						"value": 488,
 						"unit": "miles",
 						"source": {
-						    "name": "US EPA",
+							"name": "US EPA",
 							"url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=43361"
 						}
 					}
