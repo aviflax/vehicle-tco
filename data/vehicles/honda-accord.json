@@ -29,18 +29,22 @@
 				"fees": {"value": 995, "unit": "USD"}
 			},
 			"tco": {
-				"us_federal_tax_credit": {"value": 0, "unit": "USD"},
-				"insurance": {"value": 4570, "unit": "USD"},
-				"maintenance": {"value": 3466, "unit": "USD"},
-				"repairs": {"value": 734, "unit": "USD"},
-				"taxes_fees": {"value": 2823, "unit": "USD"},
-				"financing": {"value": 6211, "unit": "USD"},
-				"depreciation": {"value": 14500, "unit": "USD"},
-				"fuel": {"value": 6088, "unit": "USD"}
-			},
-			"tco_source": {
-				"url": "https://www.edmunds.com/honda/accord/2021/cost-to-own/?style=401871793",
-				"copyright": "Edmunds.com, Inc."
+				"duration": {"value": 5, "unit": "years"},
+				"distance_per_year": {"value": 15000, "unit": "miles"},
+				"elements": {
+					"us_federal_tax_credit": {"value": 0, "unit": "USD"},
+					"insurance": {"value": 4570, "unit": "USD"},
+					"maintenance": {"value": 3466, "unit": "USD"},
+					"repairs": {"value": 734, "unit": "USD"},
+					"taxes_fees": {"value": 2823, "unit": "USD"},
+					"financing": {"value": 6211, "unit": "USD"},
+					"depreciation": {"value": 14500, "unit": "USD"},
+					"fuel": {"value": 6088, "unit": "USD"}
+				},
+				"source": {
+					"url": "https://www.edmunds.com/honda/accord/2021/cost-to-own/?style=401871793",
+					"copyright": "Edmunds.com, Inc."
+				}
 			}
 		}
 	]
